@@ -1,5 +1,5 @@
 {
-  "name": "hamburger-menu",
+  "name": "hamburger-menu-react",
   "description": "Hamburger Menu for React Components",
   "author": "Sandesh Singh",
   "keywords": [
@@ -18,7 +18,6 @@
     "url": "https://github.com/sande265/hamburge-menu-npm.git"
   },
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "prop-types": "^15.7.2"
