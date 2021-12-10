@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import './styles/styles.css'
 
 const HamburgerMenu = (props) => {
 

@@ -1,0 +1,28 @@
+.moreActions {
+    font-family: remixicon, serif !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .moreActions .dropdown-item {
+    font-family: "Poppins", serif;
+  }
+  .moreActions.dropstart .dropdown-toggle::before {
+    content: "\EF78";
+    border: none;
+    transform: scale(1.5);
+  }
+  .moreActions:hover .dropdown-toggle::before {
+    transform: scale(1.8);
+  }
+
+  .tableActions .btn {
+    border: none;
+    color: var(--text-color);
+    opacity: 0.6;
+  }
+  
+  .tableActions .btn:hover {
+    color: #fff;
+    opacity: 1;
+  }

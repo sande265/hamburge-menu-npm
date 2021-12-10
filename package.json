@@ -1,11 +1,11 @@
 {
   "name": "hamburger-menu",
-  "description": "Two test React components",
-  "author": "Jawblia",
+  "description": "Hamburger Menu for React Components",
+  "author": "Sandesh Singh",
   "keywords": [
-    "react",
-    "components",
-    "ui"
+    "hamburger menu",
+    "menu",
+    "dynamic-menu"
   ],
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -21,37 +21,10 @@
   "private": true,
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "prop-types": "^15.7.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",
